@@ -25,7 +25,7 @@ function convertCurrency() {
                         let exchangeRate = conversionRates[toCurrency] / conversionRates[fromCurrency];
                         let convertedAmount = amount * exchangeRate;
 
-                        document.getElementById("result").innerHTML = `${amount} ${fromCurrency} é equivalente a ${convertedAmount.toFixed(2)} ${toCurrency}`;
+                        document.getElementById("result").innerHTML = `${amount} ${fromCurrency} equivale a aproximadamente ${convertedAmount.toFixed(2)} ${toCurrency}`;
                     } else {
                     }
                 } else {
